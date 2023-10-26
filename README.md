@@ -1,4 +1,6 @@
 # Python Batch VMAT Creator
+##Requirements
+-Python 3.11 or later
 ## Installation/Usage
 1. Download the `batch_create_vmats.py` file and the `examplevmat.vmat` from this repository
 2. Drop both into into a foler that's in your materials folder in your Half-Life Alyx addon's content folder (This is where your textures are and where the vmats will be created)
