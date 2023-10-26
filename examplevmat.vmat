@@ -55,5 +55,5 @@ Layer0
 	//---- Translucent ----
 	g_flAlphaTestReference "0"
 	g_flAntiAliasedEdgeStrength "0.000"
-	TextureTranslucency "materials/dmc5dante/base/pl0130_03_a.png"
+	TextureTranslucency "materials/default/default_rough.tga"
 }
