@@ -13,6 +13,6 @@
 - Support for other material types (idk why you'd need thousands of materials that aren't complex but its good to have)
 - Automatic compiling after creating?
 ## How you sohuld format your directory
-Have all of your textures that you want to process in the same folder, have all of the different types of texture for one material have the same name followed by the suffix of the texture type
+Have all of your textures that you want to process in the same folder, have all of the different types of texture for one material have the same name followed by the suffix of the texture type. The image formats that currently work are .tga, .png, and .jpg
 ## Texture Suffix's
 Texture suffix's are what are at the end of a texture file name to denote what tpye of texture it is. Weather it be a color map (_color, _alb, _c), normal map (_normal, _nrm, _n), roughness map (_rough, _rgh, _r), metal map (_metal, _mtl, _m), or alpha (_alpha, _alp, _a). You can chose whatever suffix you want for your textures, just make sure that they are the same for each type in the folder your creating vmats in.
