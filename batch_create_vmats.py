@@ -3,13 +3,13 @@ import fileinput
 import pathlib
 import shutil
 import sys
-sys.stdout.write ('some stuff')
 def main():
     cwd = os.getcwd()
     dir_list = os.listdir(cwd)
+    
     print(dir_list)
     mats_created = []
-    material_dir = input("What is the path of your materials folder your textures are saved? ")
+    material_dir = cwd
     albedo_name = input("What is the suffix of your color texture? ")
     normal_name = input("What is the suffix of your normal texture? ")
     rough_name = input("What is the suffix of your roughness texture? ")
