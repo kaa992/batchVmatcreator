@@ -6,6 +6,9 @@
 2. Drop both into into a foler that's in your materials folder in your Half-Life Alyx addon's content folder (This is where your textures are and where the vmats will be created)
 3. Make sure your textures are already prepared with proper suffix's denoting what type of texture it is (i.e. Color, Normal, Roughness, Metal, Alpha)
 4. Run the python script in that folder and enter in the parameters accordingly, the materials path should be materials/your_folder, and the suffixes should match the ones you added to the texture names
+- To run a python script open your command prompt and type in cd "your_hla_materials_directory", the stuff in quotes is your directory for your textures
+- If your HLA is installed on a seperate drive type the letter of the drive in your command prompt followed by a colon (ex. "D:")
+- Then type in "py batch_create_vmats.py"
 5. The script should run for a little bit, depending on how many textures and materials you want to create it could take a couple of minutes
 6. After the script is done, you can load into HLA and the materials should be in your material/asset browser and ready to use. It could freeze your HLA since the materials still need to be compiled
 ## Features to be added someday
