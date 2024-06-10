@@ -55,5 +55,5 @@ Layer0
 	//---- Translucent ----
 	g_flAlphaTestReference "0"
 	g_flAntiAliasedEdgeStrength "0.000"
-	TextureTranslucency "materials/default/default_rough.tga"
+	TextureTranslucency "materials\dev\white_color.tga"
 }

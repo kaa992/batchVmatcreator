@@ -135,7 +135,7 @@ def create_vmat(dict_list):
                 print(line.rstrip().replace('TextureRoughness "materials/default/default_rough.tga"', 'TextureRoughness "' + i["roughness"]+ '"'))
         if i["alpha"] != "":
             for line in fileinput.input(i["materialname"]+".vmat", inplace = 1): 
-                print(line.rstrip().replace('TextureTranslucency "materials/default/default_rough.tga"', 'TextureTranslucency "' + i["alpha"]+ '"'))
+                print(line.rstrip().replace('TextureTranslucency "materials\dev\white_color.tga"', 'TextureTranslucency "' + i["alpha"]+ '"'))
             for line in fileinput.input(i["materialname"]+".vmat", inplace = 1):    
                 print(line.rstrip().replace('F_ALPHA_TEST 0', 'F_ALPHA_TEST 1')) 
             for line in fileinput.input(i["materialname"]+".vmat", inplace = 1):    
